@@ -33,5 +33,44 @@ h2 {
 	padding: 0.5px; /* x defecto (margen interno)*/
 	font-size: 19px; 
 	font-weight: bold;  /*negriar texto*/
+}
+
+#seccion{
+	font-size: 19px; 
+	background-color: #857E7E; /*Color de fondo*/
+	margin-left: 30px;*/ /*margen x un lado izq*/
+}
+
+#seccion{
+	margin-top: 20px;*/  /*margen arriba*/
+}
+#seccion{
+	margin-right: 600px;*/  /*margen derecha*/
+}
+#seccion{
+	margin-bottom: 20px;*/  /*margen abajo*/
+}
+
+/*#columna{
+	background-color: #B3AEAE; /*Color de fondo*/
+	/*margin-left: 750px;*/ /*margen x un lado izq*/
+/*}
+
+#columna{
+	margin-right: 30px;*/  /*margen derecha*/
+/*}
+
+#columna{
+	/*margin-top: 40px;*/  /*margen arriba*/
+	/*border-top:40px solid #B3AEAE; /*borde inferior y color*/
+	/*padding: 10px; /*espacio entre las listas*/
+/*}*/
+
+#pie{
+	font-size: 19px; 
+	background-color: #857E7E; /*Color de fondo*/
+	padding: 21px; /* x defecto (margen interno)*/
+	text-align: center;/*centrar el texto*/
+	margin-top: 20px;*/  /*margen arriba*/
 
 }
