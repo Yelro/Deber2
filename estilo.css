@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 4px;
+  /*overflow: hidden;*/
 
 }
 h1 {
@@ -36,35 +37,51 @@ h2 {
 }
 
 #seccion{
+
 	font-size: 19px; 
+	width: 830px;
+	height: 20px;
+	margin: 5px;
+	padding: 5px;
 	background-color: #857E7E; /*Color de fondo*/
+	float:left;  /*que flote la columna una al lado de otra*/
 	margin-left: 30px;*/ /*margen x un lado izq*/
+
 }
 
 #seccion{
 	margin-top: 20px;*/  /*margen arriba*/
 }
 #seccion{
-	margin-right: 600px;*/  /*margen derecha*/
+	/*margin-right: 600px;*/  /*margen derecha*/
 }
 #seccion{
-	margin-bottom: 20px;*/  /*margen abajo*/
+	/*margin-bottom: 20px;*/  /*margen abajo*/
 }
 
-/*#columna{
-	background-color: #B3AEAE; /*Color de fondo*/
-	/*margin-left: 750px;*/ /*margen x un lado izq*/
-/*}
+
 
 #columna{
-	margin-right: 30px;*/  /*margen derecha*/
-/*}
+    
+	background-color: #B3AEAE; /*Color de fondo*/
+	margin-left: 900px;*/ /*margen x un lado izq*/
+}
+
+#columna{
+	margin-right: 20px;*/  /*margen derecha*/
+}
+#columna{
+	margin-top: 20px;*/  /*margen arriba*/
+}
 
 #columna{
 	/*margin-top: 40px;*/  /*margen arriba*/
-	/*border-top:40px solid #B3AEAE; /*borde inferior y color*/
+	border-top:40px solid #B3AEAE; /*borde arriba y color*/
 	/*padding: 10px; /*espacio entre las listas*/
-/*}*/
+}
+
+
+
 
 #pie{
 	font-size: 19px; 
