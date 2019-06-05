@@ -1,5 +1,5 @@
 * {
-  margin: 2px;
+  margin: 0px;
   padding: 4px;
 
 }
@@ -12,11 +12,26 @@ h2 {
 
 #cabecera{
 	background-color: #E8F57B; /*Color de fondo*/
-	border: 2px solid #8C8181; /*borde y color*/
+	border: 2px solid #B3AEAE; /*borde y color*/
 	padding: 17px; /* x defecto (margen interno)*/
+	/*border-bottom:10px solid #B3AEAE; /*borde inferior y color*/
 }
 
 #agrupar {
 	border: 2px solid #252323; /*borde y color*/
     padding: 11px; /* x defecto (margen interno)*/
+}
+
+/*encontrar una etiqueta li q esta en menu  */
+#menu li{
+    display: inline-block;/*para que aparesca en fila y no en columna como sale x defecto*/
+	padding: 5px; /*espacio entre las listas*/
+}
+
+#menu{
+	background-color: #B3AEAE; /*Color de fondo*/
+	padding: 0.5px; /* x defecto (margen interno)*/
+	font-size: 19px; 
+	font-weight: bold;  /*negriar texto*/
+
 }
